@@ -1,0 +1,22 @@
+{
+  "name": "intel-commercial-iot-microsoft-azure-storage",
+  "version": "1.0.0",
+  "description": "A plugin for the Intel Edison Iot Cloud tools to store and retrieve data from Microsoft Azure",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Intel",
+  "license": "MIT",
+  "keywords": [
+    "microsoft",
+    "azure",
+    "plugin",
+    "tablestorage"
+  ],
+  "dependencies": {
+    "azure-storage": "latest",
+    "lodash": "latest",
+    "winston": "latest"
+  }
+}
